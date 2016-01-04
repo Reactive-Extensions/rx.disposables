@@ -1,0 +1,28 @@
+{
+  "name": "rx.disposables",
+  "version": "1.0.0",
+  "description": "Library for Disposables which can be used independently from RxJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/**/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reactive-Extensions/rx.disposables.git"
+  },
+  "keywords": [
+    "Rx",
+    "RxJS",
+    "Disposables"
+  ],
+  "author": "Microsoft Corporation",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Reactive-Extensions/rx.disposables/issues"
+  },
+  "homepage": "https://github.com/Reactive-Extensions/rx.disposables#readme",
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.4.0"
+  }
+}
