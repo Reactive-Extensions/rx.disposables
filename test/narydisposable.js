@@ -2,7 +2,7 @@
 
 var test = require('tape');
 var Disposable = require('../disposable');
-var NAryDisposable = require('../NAryDisposable');
+var NAryDisposable = require('../narydisposable');
 
 test('NAryDisposable#constructor', function (t) {
   var disp1 = false;
