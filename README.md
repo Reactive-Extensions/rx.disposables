@@ -1,7 +1,8 @@
 [![Build Status](https://travis-ci.org/Reactive-Extensions/rx.disposables.svg)](https://travis-ci.org/Reactive-Extensions/rx.disposables)
 [![GitHub version](https://img.shields.io/github/tag/reactive-extensions/rx.disposables.svg)](https://github.com/Reactive-Extensions/rx.disposables)
 [![NPM version](https://img.shields.io/npm/v/rx.disposables.svg)](https://www.npmjs.com/package/rx.disposables)
-[![Downloads](https://img.shields.io/npm/dm/rx.disposables.svg)](https://www.npmjs.com/package/rx.disposables)# `rx.disposables` - RxJS disposables
+[![Downloads](https://img.shields.io/npm/dm/rx.disposables.svg)](https://www.npmjs.com/package/rx.disposables)
+# `rx.disposables` - RxJS disposables
 
 This is a standalone version of the RxJS disposable classes which can manage the lifetime of any given resource.
 
@@ -124,6 +125,17 @@ sd.dispose();
 ```
 
 ## Contributing
+
+We appreciate any contributions by the community as long as they abide by the [Code of Conduct](code-of-conduct.md).
+
+Want to get started?  Here are some ways you can get involved.
+1. Documentation
+  - Examples
+  - How Do I?
+  - API Documentation
+2. Code
+  - Additional disposables
+  - Unit tests
 
 # LICENSE
 
