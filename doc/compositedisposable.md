@@ -1,10 +1,10 @@
 # `CompositeDisposable` class #
 
-Represents a group of disposable resources that are disposed together.
+Represents a group of disposable resources that are disposed together that can be added to and removed from.
 
 ## Usage ##
 
-The follow example shows the basic usage of an `CompositeDisposable`.
+The follow example shows the basic usage of a `CompositeDisposable`.
 
 ```js
 const d1 = Disposable.create(() => console.log('one'));
@@ -18,20 +18,16 @@ disposables.dispose();
 // => two
 ```
 
-### Location
-
-- js
-
-## `CompositeDisposable Constructor` ##
+## `CompositeDisposable` Constructor ##
 - [`constructor`](#compositedisposablergs)
 
-## `CompositeDisposable Instance Methods` ##
+## `CompositeDisposable` Instance Methods ##
 - [`add`](#compositedisposableprototypeadditem)
 - [`clear`](#compositedisposableprototypeclear)
 - [`dispose`](#compositedisposableprototypedispose)
 - [`remove`](#compositedisposableprototyperemoveitem)
 
-## `CompositeDisposable Instance Properties` ##
+## `CompositeDisposable` Instance Properties ##
 - [`isDisposed`](#isdisposed)
 - [`length`](#length)
 
@@ -42,7 +38,7 @@ disposables.dispose();
 Initializes a new instance of the `CompositeDisposable` class from a group of disposables.
 
 #### Arguments
-1. `args` `Array|arguments`: Disposables that will be disposed together.
+1. `args`: `Array|arguments` - Disposables that will be disposed together.
 
 #### Example
 ```js
@@ -140,9 +136,9 @@ Removes and disposes the first occurrence of a disposable from the CompositeDisp
 #### Example
 
 ```js
-var disposables = new CompositeDisposable();
+const disposables = new CompositeDisposable();
 
-var d1 = Disposable.create(function () {
+const d1 = Disposable.create(function () {
      console.log('one');
 });
 
@@ -163,11 +159,9 @@ Gets a value that indicates whether the object is disposed.
 
 #### Example
 ```js
-var disposables = new CompositeDisposable();
+const disposables = new CompositeDisposable();
 
-var d1 = Disposable.create(function () {
-     console.log('disposed');
-});
+const d1 = Disposable.create(() => console.log('disposed'));
 
 disposables.add(d1);
 
@@ -190,11 +184,9 @@ Gets the number of disposables in the CompositeDisposable.
 
 #### Example
 ```js
-var disposables = new CompositeDisposable();
+const disposables = new CompositeDisposable();
 
-var d1 = Disposable.create(function () {
-     console.log('disposed');
-});
+const d1 = Disposable.create(() => console.log('disposed'));
 
 disposables.add(d1);
 

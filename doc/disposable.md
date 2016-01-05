@@ -13,14 +13,14 @@ disposable.dispose();
 // => disposed
 ```
 
-## `Disposable Class Methods` ##
+## `Disposable` Class Methods ##
 - [`create`](#disposablecreateaction)
 - [`isDisposable`](#disposableisdisposabled)
 
-## `Disposable Class Properties` ##
+## `Disposable` Class Properties ##
 - [`empty`](#disposableempty)
 
-## `Disposable Instance Methods` ##
+## `Disposable` Instance Methods ##
 - [`dispose`](#disposableprototypedispose)
 
 ## _Class Methods_ ##

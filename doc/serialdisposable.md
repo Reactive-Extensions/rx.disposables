@@ -4,7 +4,7 @@ Represents a disposable resource whose underlying disposable resource can be rep
 
 ## Usage ##
 
-The follow example shows the basic usage of an SerialDisposable.
+The follow example shows the basic usage of a `SerialDisposable`.
 
 ```js
 const serialDisposable = new SerialDisposable();
@@ -22,15 +22,15 @@ serialDisposable.dispose();
 // = two
 ```
 
-## `SerialDisposable Constructor` ##
+## `SerialDisposable` Constructor ##
 - [`constructor`](#serialdisposable)
 
-## `SerialDisposable Instance Methods` ##
+## `SerialDisposable` Instance Methods ##
 - [`dispose`](#serialdisposableprototypedispose)
 - [`getDisposable`](#serialdisposableprototypegetdisposable)
 - [`setDisposable`](#serialdisposableprototypesetdisposable)
 
-## `SerialDisposable Instance Properties` ##
+## `SerialDisposable` Instance Properties ##
 - [`isDisposed`](#isdisposed)
 
 ## _SerialDisposable Constructor_ ##
