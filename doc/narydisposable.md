@@ -31,7 +31,7 @@ disposables.dispose();
 
 ## _NAryDisposable Constructor_ ##
 
-### <a id="narydisposable"></a>`NAryDisposable(disposables)`
+### <a id="narydisposabledisposables"></a>`NAryDisposable(disposables)`
 
 Creates a new group of disposable resources that are disposed together.
 

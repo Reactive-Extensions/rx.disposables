@@ -29,7 +29,7 @@ disposables.dispose();
 
 ## _BinaryDisposable Constructor_ ##
 
-### <a id="binarydisposable"></a>`BinaryDisposable(first, second)`
+### <a id="binarydisposablefirst-second"></a>`BinaryDisposable(first, second)`
 
 Creates a new group of two disposable resources that are disposed together.
 
