@@ -4,7 +4,7 @@
   "description": "Library for Disposables which can be used independently from RxJS",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/**/*.js | tap-spec"
+    "test": "tape test/**/*.js | tap-spec && markdown-doctest"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Reactive-Extensions/rx.disposables#readme",
   "devDependencies": {
+    "markdown-doctest": "^0.3.0",
     "tap-spec": "^4.1.1",
     "tape": "^4.4.0"
   }
