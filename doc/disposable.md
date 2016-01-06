@@ -7,7 +7,7 @@ Provides a set of static methods for creating Disposables, which defines a metho
 The follow example shows the basic usage of an `Disposable`.
 
 ```js
-const d1 = Disposable.create(() => console.log('disposed'));
+const disposable = Disposable.create(() => console.log('disposed'));
 
 disposable.dispose();
 // => disposed
@@ -37,7 +37,7 @@ Creates a disposable object that invokes the specified action when disposed.
 
 #### Example
 ```js
-const d1 = Disposable.create(() => console.log('disposed'));
+const disposable = Disposable.create(() => console.log('disposed'));
 
 disposable.dispose();
 // => disposed
@@ -58,7 +58,7 @@ Creates a disposable object that invokes the specified action when disposed.
 #### Example
 ```js
 const disposable = Disposable.empty;
-console.log(disposable.isDisposable(disposable));
+console.log(Disposable.isDisposable(disposable));
 // => true
 ```
 
@@ -92,7 +92,7 @@ Performs the task of cleaning up resources.
 #### Example
 
 ```js
-const d1 = Disposable.create(() => console.log('disposed'));
+const disposable = Disposable.create(() => console.log('disposed'));
 
 disposable.dispose();
 // => disposed
