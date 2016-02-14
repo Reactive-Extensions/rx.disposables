@@ -7,12 +7,12 @@
 This is a standalone version of the RxJS disposable classes which can manage the lifetime of any given resource.
 
 This includes the following disposables with their documentation:
-- [`BinaryDisposable`](doc/binarydisposable);
+- [`BinaryDisposable`](doc/binarydisposable.md)
 - [`CompositeDisposable`](doc/compositedisposable.md)
 - [`Disposable`](doc/disposable.md)
 - [`NAryDisposable`](doc/narydisposable.md)
 - [`SerialDisposable`](doc/serialdisposable.md)
-- [`SingleAssignmentDisposable`](doc/singleassignmentdisposable)
+- [`SingleAssignmentDisposable`](doc/singleassignmentdisposable.md)
 
 ## Installation
 
